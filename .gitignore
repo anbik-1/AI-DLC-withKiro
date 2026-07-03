@@ -1,0 +1,45 @@
+# --- Kiro session data (populated at runtime, not scaffold) ---
+sessions/*
+!sessions/.gitkeep
+
+# --- Common runtime artifacts (in case a project is generated in-place) ---
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+.coverage
+
+# --- CDK ---
+cdk.out/
+.cdk.staging/
+
+# --- Env / secrets ---
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Local project scratch space ---
+tmp/
+*.log
